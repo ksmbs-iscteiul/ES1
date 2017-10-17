@@ -29,7 +29,7 @@ public class AntiSpamFilterProblem extends AbstractDoubleProblem {
 	    setLowerLimit(lowerLimit);
 	    setUpperLimit(upperLimit);
 	  }
-
+	  // metodo 
 	  public void evaluate(DoubleSolution solution){
 	    double aux, xi, xj;
 	    double[] fx = new double[getNumberOfObjectives()];
